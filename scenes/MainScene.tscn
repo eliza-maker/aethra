@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3 uid="uid://bd61shgvsjy64"]
+
+[ext_resource type="PackedScene" uid="uid://bjapsb2spqi2" path="res://scenes/worlds/MathematicsTown.tscn" id="2_k24pf"]
+[ext_resource type="PackedScene" uid="uid://bqf0sxipakb56" path="res://scenes/worlds/SpawnScene.tscn" id="3_ygjfp"]
+[ext_resource type="PackedScene" uid="uid://1m1v3c3ri1mq" path="res://characters/Player.tscn" id="4_1wiy7"]
+
+[sub_resource type="GDScript" id="GDScript_c6dvc"]
+script/source = "extends Node2D
+
+var current_world = null
+
+func _ready():
+	load_world(\"res://scenes/worlds/SpawnScene.tscn\")  # Inicia en el Spawn
+
+func load_world(scene_path):
+	if current_world:
+		current_world.queue_free()  # Eliminar la escena anterior
+		await get_tree().process_frame  # Esperar un frame para que se elimine correctamente
+	var new_world = load(scene_path).instantiate()
+	add_child(new_world)
+	current_world = new_world
+"
+
+[node name="MainScene" type="Node2D"]
+script = SubResource("GDScript_c6dvc")
+
+[node name="World" type="Node2D" parent="."]
+
+[node name="MathematicsTown" parent="World" instance=ExtResource("2_k24pf")]
+position = Vector2(301, -782)
+
+[node name="SpawnScene" parent="World" instance=ExtResource("3_ygjfp")]
+position = Vector2(33, 64)
+
+[node name="WorldLoader" type="Node2D" parent="."]
+
+[node name="Player" parent="." instance=ExtResource("4_1wiy7")]
+position = Vector2(263, 131)

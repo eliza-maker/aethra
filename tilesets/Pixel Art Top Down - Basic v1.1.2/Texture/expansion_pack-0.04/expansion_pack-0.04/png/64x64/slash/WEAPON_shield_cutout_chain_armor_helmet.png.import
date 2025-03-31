@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1nlue4gs5050"
-path="res://.godot/imported/fondo.jpeg-78203594a69a15c2f71672086623220c.ctex"
+uid="uid://boi64a0bmiig0"
+path="res://.godot/imported/WEAPON_shield_cutout_chain_armor_helmet.png-22cc16232adac1f5aa1dffbf19092add.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/fondo.jpeg"
-dest_files=["res://.godot/imported/fondo.jpeg-78203594a69a15c2f71672086623220c.ctex"]
+source_file="res://tilesets/Pixel Art Top Down - Basic v1.1.2/Texture/expansion_pack-0.04/expansion_pack-0.04/png/64x64/slash/WEAPON_shield_cutout_chain_armor_helmet.png"
+dest_files=["res://.godot/imported/WEAPON_shield_cutout_chain_armor_helmet.png-22cc16232adac1f5aa1dffbf19092add.ctex"]
 
 [params]
 

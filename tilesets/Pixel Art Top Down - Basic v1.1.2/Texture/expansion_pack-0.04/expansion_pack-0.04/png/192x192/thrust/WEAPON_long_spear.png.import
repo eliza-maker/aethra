@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1nlue4gs5050"
-path="res://.godot/imported/fondo.jpeg-78203594a69a15c2f71672086623220c.ctex"
+uid="uid://btnes21a4ey47"
+path="res://.godot/imported/WEAPON_long_spear.png-d08bcff3ee50f4f042d96a5faf3db1de.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/fondo.jpeg"
-dest_files=["res://.godot/imported/fondo.jpeg-78203594a69a15c2f71672086623220c.ctex"]
+source_file="res://tilesets/Pixel Art Top Down - Basic v1.1.2/Texture/expansion_pack-0.04/expansion_pack-0.04/png/192x192/thrust/WEAPON_long_spear.png"
+dest_files=["res://.godot/imported/WEAPON_long_spear.png-d08bcff3ee50f4f042d96a5faf3db1de.ctex"]
 
 [params]
 

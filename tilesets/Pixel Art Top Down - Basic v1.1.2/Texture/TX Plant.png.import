@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1nlue4gs5050"
-path="res://.godot/imported/fondo.jpeg-78203594a69a15c2f71672086623220c.ctex"
+uid="uid://bq2i07evwk6xk"
+path="res://.godot/imported/TX Plant.png-7b275a39df0ab924290c3ebd62962ca6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/fondo.jpeg"
-dest_files=["res://.godot/imported/fondo.jpeg-78203594a69a15c2f71672086623220c.ctex"]
+source_file="res://tilesets/Pixel Art Top Down - Basic v1.1.2/Texture/TX Plant.png"
+dest_files=["res://.godot/imported/TX Plant.png-7b275a39df0ab924290c3ebd62962ca6.ctex"]
 
 [params]
 

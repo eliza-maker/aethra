@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1nlue4gs5050"
-path="res://.godot/imported/fondo.jpeg-78203594a69a15c2f71672086623220c.ctex"
+uid="uid://dhxg08d57ybga"
+path="res://.godot/imported/BODY_death.png-de71a0b62a07b93a7c242e7f6dc2027f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/fondo.jpeg"
-dest_files=["res://.godot/imported/fondo.jpeg-78203594a69a15c2f71672086623220c.ctex"]
+source_file="res://tilesets/Pixel Art Top Down - Basic v1.1.2/Texture/expansion_pack-0.04/expansion_pack-0.04/png/64x64/combat_dummy/BODY_death.png"
+dest_files=["res://.godot/imported/BODY_death.png-de71a0b62a07b93a7c242e7f6dc2027f.ctex"]
 
 [params]
 

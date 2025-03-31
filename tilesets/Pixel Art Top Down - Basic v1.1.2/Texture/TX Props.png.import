@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1nlue4gs5050"
-path="res://.godot/imported/fondo.jpeg-78203594a69a15c2f71672086623220c.ctex"
+uid="uid://dpc76tlo87tmd"
+path="res://.godot/imported/TX Props.png-27ef548b38766626a9f44c733b62e264.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/fondo.jpeg"
-dest_files=["res://.godot/imported/fondo.jpeg-78203594a69a15c2f71672086623220c.ctex"]
+source_file="res://tilesets/Pixel Art Top Down - Basic v1.1.2/Texture/TX Props.png"
+dest_files=["res://.godot/imported/TX Props.png-27ef548b38766626a9f44c733b62e264.ctex"]
 
 [params]
 

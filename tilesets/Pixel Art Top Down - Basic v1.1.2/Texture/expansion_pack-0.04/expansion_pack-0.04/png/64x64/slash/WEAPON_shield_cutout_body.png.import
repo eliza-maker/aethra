@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1nlue4gs5050"
-path="res://.godot/imported/fondo.jpeg-78203594a69a15c2f71672086623220c.ctex"
+uid="uid://dr5epkgx433nr"
+path="res://.godot/imported/WEAPON_shield_cutout_body.png-8b017b8903838848e46a88661e3816c0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/fondo.jpeg"
-dest_files=["res://.godot/imported/fondo.jpeg-78203594a69a15c2f71672086623220c.ctex"]
+source_file="res://tilesets/Pixel Art Top Down - Basic v1.1.2/Texture/expansion_pack-0.04/expansion_pack-0.04/png/64x64/slash/WEAPON_shield_cutout_body.png"
+dest_files=["res://.godot/imported/WEAPON_shield_cutout_body.png-8b017b8903838848e46a88661e3816c0.ctex"]
 
 [params]
 
