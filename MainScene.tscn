@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cqtlxu3vtqutx"]
 
-[ext_resource type="Texture2D" uid="uid://c1nlue4gs5050" path="res://assets/fondo.jpeg" id="1_3mqji"]
 [ext_resource type="Script" uid="uid://k4x06bnws308" path="res://main_scene.gd" id="1_x4av3"]
+[ext_resource type="Texture2D" uid="uid://daxvqwg6ulnk0" path="res://assets/fondo1.jpeg" id="2_x4av3"]
 
 [node name="MainScene" type="Control"]
 layout_mode = 3
@@ -10,9 +10,11 @@ script = ExtResource("1_x4av3")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
-offset_right = 485.0
-offset_bottom = 272.0
-texture = ExtResource("1_3mqji")
+offset_left = 2.0
+offset_top = -1.0
+offset_right = 482.0
+offset_bottom = 269.0
+texture = ExtResource("2_x4av3")
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0

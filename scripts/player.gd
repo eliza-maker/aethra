@@ -5,7 +5,11 @@ extends CharacterBody2D
 
 var last_direction = "front"  # Dirección inicial
 
-func _process(delta):
+func _ready():
+	if Global.spawn_position:  # Si hay una posición guardada, úsala
+		global_position = Global.spawn_position
+
+func _process(_delta):
 	var direction = Vector2.ZERO
 
 	if Input.is_action_pressed("ui_right"):

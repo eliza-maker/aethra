@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://dpc76tlo87tmd" path="res://tilesets/Pixel Art Top Down - Basic v1.1.2/Texture/TX Props.png" id="3_3mj8x"]
 [ext_resource type="Texture2D" uid="uid://bq2i07evwk6xk" path="res://tilesets/Pixel Art Top Down - Basic v1.1.2/Texture/TX Plant.png" id="3_owhjd"]
 [ext_resource type="Texture2D" uid="uid://d3o0kafru201r" path="res://tilesets/Pixel Art Top Down - Basic v1.1.2/Texture/TX Tileset Grass.png" id="3_s4nkj"]
-[ext_resource type="Script" uid="uid://yi1wtc36q0w2" path="res://scenes/worlds/transition_to_spawn.gd" id="4_owhjd"]
+[ext_resource type="Script" uid="uid://yi1wtc36q0w2" path="res://scripts/transition_to_spawn.gd" id="4_owhjd"]
 
 [sub_resource type="TileSet" id="TileSet_ym8qg"]
 
@@ -917,7 +917,7 @@ tile_map_data = PackedByteArray("AAAFAPr/AAASAAQAAAAFAPv/AAASAAUAAAAFAPz/AAASAAY
 tile_set = SubResource("TileSet_i0o44")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2(257, -12)
+position = Vector2(244, -17)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(0, -14)
@@ -928,10 +928,10 @@ script = ExtResource("4_owhjd")
 next_scene = "res://scenes/worlds/SpawnScene.tscn"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="transitionToSpawn"]
-position = Vector2(192.5, 450.5)
+position = Vector2(190, 247)
 shape = SubResource("RectangleShape2D_s4nkj")
 
 [node name="SpawnPoint" type="Marker2D" parent="."]
-position = Vector2(194, 417)
+position = Vector2(196, 211)
 
 [connection signal="body_entered" from="transitionToSpawn" to="." method="_on_transition_to_spawn_body_entered"]
