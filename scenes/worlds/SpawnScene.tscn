@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=4 uid="uid://bqf0sxipakb56"]
+[gd_scene load_steps=30 format=4 uid="uid://bqf0sxipakb56"]
 
 [ext_resource type="Texture2D" uid="uid://d3o0kafru201r" path="res://tilesets/Pixel Art Top Down - Basic v1.1.2/Texture/TX Tileset Grass.png" id="1_5kp5n"]
 [ext_resource type="Texture2D" uid="uid://dpc76tlo87tmd" path="res://tilesets/Pixel Art Top Down - Basic v1.1.2/Texture/TX Props.png" id="2_m1ilk"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://duuwodgn4xilg" path="res://tilesets/Pixel Art Top Down - Basic v1.1.2/Texture/TX Tileset Wall.png" id="4_s1dat"]
 [ext_resource type="Texture2D" uid="uid://5jj1jf11og38" path="res://tilesets/Pixel Art Top Down - Basic v1.1.2/Texture/TX Tileset Stone Ground.png" id="5_7xsc5"]
 [ext_resource type="Texture2D" uid="uid://bq2i07evwk6xk" path="res://tilesets/Pixel Art Top Down - Basic v1.1.2/Texture/TX Plant.png" id="6_l48yt"]
+[ext_resource type="Texture2D" uid="uid://6j1gadbys1h2" path="res://assets/casita.jpeg" id="6_s1dat"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_epg5w"]
 texture = ExtResource("1_5kp5n")
@@ -1590,10 +1591,78 @@ texture = ExtResource("5_7xsc5")
 14:15/0 = 0
 15:15/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7xsc5"]
+texture = ExtResource("6_s1dat")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+
 [sub_resource type="TileSet" id="TileSet_t67rv"]
 sources/0 = SubResource("TileSetAtlasSource_srsjb")
 sources/1 = SubResource("TileSetAtlasSource_bgv5v")
 sources/2 = SubResource("TileSetAtlasSource_fxsit")
+sources/3 = SubResource("TileSetAtlasSource_7xsc5")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xfceo"]
 texture = ExtResource("4_s1dat")
